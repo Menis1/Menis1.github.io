@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CIT 160 - Assignment - Daniele Menis</title>
+        <meta name="description" content="This page serves as an assignment template for CIT 160.">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="css/program.css">
+    </head>
+    <body>
+        <header>
+            <h1>Week 11: Using Functions</h1>
+            <h2>Daniele Menis</h2>
+        </header>
+        <main>
+            <h3>Investment Calculator</h3>
+                <label>Amount Invested (principal): <input type="text" id="principal"></label>
+            <label>Annual rate (example 0.08): <input type="text" id="rate"> </label>
+                <label>Number of years: <input type="text" id="years"></label>
+            <label>Periods per year <input type="text" id="periods"> </label>
+            <label><button onclick="doFV()">Compute Future Value</button><p><span id="output"></span></p></label>
+            <hr>
+            <p><span id="output"></span></p>
+        </main>
+        <footer>
+            &copy;2019 &bull; Daniele Menis &bull; BYU-Idaho &bull; CIT 160 &bull; <span id="currentdate"></span>
+        </footer>
+
+            <script src="js/week11.js"></script>
+    </body>
+</html>
